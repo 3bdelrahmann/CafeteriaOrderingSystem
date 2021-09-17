@@ -1,8 +1,8 @@
 package cafeteria.ordering.system.MVC;
 
-import cafeteria.ordering.system.Customer;
-import cafeteria.ordering.system.CustomerDAO;
-import cafeteria.ordering.system.DAOFactory;
+import cafeteria.ordering.system.pojo.Customer;
+import cafeteria.ordering.system.DAO.CustomerDAO;
+import cafeteria.ordering.system.DAO.DAOFactory;
 import java.util.List;
 
 public class Model extends java.util.Observable {
